@@ -1,14 +1,54 @@
 body {
   margin: 0;
   font-size: 16px;
-  font-family: "adelle-sans-ultra-thin", sans-serif;
+  font-family: "halyard-display", sans-serif;
   font-weight: 200;
   font-style: normal;
-  transition: all 1s ease-in-out;
+  background-color: rgb(13, 13, 17);
+  /* transition: all 1s ease-in-out; */
+}
+
+#navbar {
+  background-color: transparent;
+  display: flex;
+  position: fixed;
+  padding: 20px 5% 20px 5%;
+  align-items: center;
+  width: 90%;
+
+  a {
+    color: rgb(240, 242, 248);
+    text-decoration: none;
+  }
+  #name-link {
+    font-size: 1.5rem;
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.03em;
+  }
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 0px;
+  padding-right: 30px;
+  list-style: none;
+  column-gap: 40px;
+  font-weight: 200;
+}
+
+.navbar-item {
+  color: rgb(240, 242, 248);
 }
 
 #home {
-  background-color: white;
+  background-color: rgb(13, 13, 17);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
 }
 
 #welcome {
@@ -18,7 +58,6 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
-
   height: 100vh;
   width: 100%;
 }
@@ -30,8 +69,15 @@ body {
 }
 
 #reel {
-  background-color: white;
-  height: 90vh;
+  height: 70vh;
+}
+
+#projects {
+  height: 50vh;
+}
+
+#about {
+  height: 70vh;
 }
 
 h1 {
@@ -47,8 +93,42 @@ h1 {
 }
 
 h2 {
+  color: rgb(228, 221, 225);
+  letter-spacing: 0.05em;
+  font-size: 3rem;
+  margin: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+h3 {
   margin-top: 5px;
   text-align: center;
   color: rgb(240, 242, 248);
   font-size: 1.2rem;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+}
+
+p {
+  text-align: center;
+  color: rgb(228, 221, 225);
+}
+
+#about-me-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+section {
+  padding-bottom: 20px;
+}
+
+footer {
+  padding-bottom: 10px;
+  p {
+    margin: 0;
+  }
 }
