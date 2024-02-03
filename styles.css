@@ -1,11 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   margin: 0;
-  font-size: 16px;
   font-family: "halyard-display", sans-serif;
   font-weight: 200;
   font-style: normal;
   background-color: rgb(13, 13, 17);
   /* transition: all 1s ease-in-out; */
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #navbar {
@@ -15,6 +37,9 @@ body {
   padding: 20px 5% 20px 5%;
   align-items: center;
   width: 90%;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 
   a {
     color: rgb(240, 242, 248);
@@ -74,10 +99,31 @@ body {
 
 #projects {
   height: 50vh;
+  padding-top: 70px;
+}
+
+#about-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70vw;
+  min-width: 400px;
+  max-width: 900px;
+  height: auto;
+  gap: 50px;
+  align-items: center;
 }
 
 #about {
-  height: 70vh;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+#reel-container {
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -90,14 +136,18 @@ h1 {
   font-style: normal;
   letter-spacing: 0.03em;
   line-height: 1.25em;
+
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 h2 {
   color: rgb(228, 221, 225);
   letter-spacing: 0.05em;
   font-size: 3rem;
-  margin: 10px;
   margin-top: 40px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -108,11 +158,20 @@ h3 {
   font-size: 1.2rem;
   font-weight: 200;
   letter-spacing: 0.05em;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 p {
-  text-align: center;
   color: rgb(228, 221, 225);
+  text-align: left;
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+a {
+  color: rgb(240, 48, 99);
 }
 
 #about-me-image {
@@ -120,6 +179,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 300px;
+  border-radius: 5px;
 }
 
 section {
@@ -127,8 +187,25 @@ section {
 }
 
 footer {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  position: static;
   p {
+    text-align: center;
     margin: 0;
+    font-size: 16px;
+    line-height: normal;
   }
+}
+
+@media screen and (max-width: 900px) {
+  #about-container {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
+
+#under-construction {
+  text-align: center;
+  color: rgb(240, 48, 99);
+  padding-bottom: 10px;
 }
