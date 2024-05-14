@@ -7,27 +7,31 @@
   </head>
   <body>
     <nav id="navbar">
+      <img
+        src="img/logo.gif"
+        alt="Little sun logo!"
+        style="width: 50px; height: 50px; margin-right: 15px"
+      />
       <a href="#" target="_self" id="name-link"> sherry zhang </a>
       <ul class="navbar-menu">
-        <li class="navbar-item">ANIMATION</li>
-        <li class="navbar-item">CODE</li>
-        <li class="navbar-item">ART</li>
-        <li class="navbar-item">ABOUT</li>
-        <li class="navbar-item">RESUME</li>
+        <li><a class="navbar-item" href="/oopsie.html">ANIMATION</a></li>
+        <li><a class="navbar-item" href="/oopsie.html">CODE</a></li>
+        <li><a class="navbar-item" href="/oopsie.html">ART</a></li>
+        <li><a class="navbar-item" href="/about.html">ABOUT</a></li>
+        <li><a class="navbar-item" href="/oopsie.html">RESUME</a></li>
       </ul>
     </nav>
     <section id="home">
       <div id="welcome">
         <div id="textrow">
           <h1 id="title-text">sherry zhang</h1>
-          <h3 id="subtitle-text">
-            DEV, ART, ANIMATION, AND EVERYTHING IN BETWEEN
-          </h3>
+          <h3 id="subtitle-text">TECHNICAL ARTIST & UX DESIGNER</h3>
         </div>
+        <h3 style="padding-top: 30vh; font-size: 24px">&#8595;</h3>
       </div>
     </section>
     <section id="reel">
-      <h2>REEL</h2>
+      <h2>Animation Reel</h2>
       <div id="reel-container">
         <iframe
           src="https://player.vimeo.com/video/908009429?h=ff800ae524"
@@ -39,49 +43,50 @@
         ></iframe>
       </div>
     </section>
-    <!-- <section id="projects">
-      <h2>FEATURED PROJECTS</h2>
-      <p>Under construction!</p>
-    </section> -->
-    <section id="about">
-      <h2>ABOUT</h2>
-      <div id="about-container">
-        <div id="about-text">
-          <p>
-            Hi! I’m Sherry and I’m a student at Brown University. I’m currently
-            pursuing a B.S. in Computer Science with a focus on Visual Computing
-            and Design.
-          </p>
-          <p>
-            I love telling stories through my work, and I’m interested in
-            animation, 3D technical art, full stack development, and UX design.
-          </p>
-          <p>
-            On the side, I lift heavy weights, swim, draw my favorite
-            characters, and work as a teaching assistant for a data structures &
-            algorithms class.
-          </p>
-          <p>
-            Email me at
-            <a href="mailto:sherry_p_zhang@brown.edu"
-              >sherry_p_zhang@brown.edu!</a
-            >
-            I can’t wait to meet you! :)
+    <section id="projects">
+      <h2>Selected Works</h2>
+      <div class="works-container">
+        <div class="works-item">
+          <p id="in-progress">Under construction!</p>
+          <img
+            class="works-img"
+            src="img/takeflight_main.png"
+            alt="Image from an animated short film. Depicts a girl on a big bird looking down at her dad."
+          />
+          <h4>Take Flight</h4>
+          <p class="works-text">
+            A 6-minute animated short film about parental love, growing up as an
+            artist, and a really big bird
           </p>
         </div>
-        <div id="about-image">
+        <div class="works-item">
           <img
-            id="about-me-image"
-            src="img/aboutme_2.jpg"
-            alt="A picture of me!"
+            class="works-img"
+            onclick="document.location.href='zest.html'"
+            src="img/zest_main.png"
+            alt="Screenshot of a Figma mockup of a website's shipping page."
           />
+          <h4>Zest Redesign</h4>
+          <p class="works-text">Redesigning a corporate gifting platform</p>
+        </div>
+        <div class="works-item">
+          <img class="works-img" src="img/treereq_main.png" alt="" />
+          <h4>Tree-Req</h4>
+          <p class="works-text">A course planning website for Brown students</p>
+        </div>
+        <div class="works-item">
+          <img class="works-img" src="img/responsive_main.png" alt="" />
+          <h4>Frying Fish Redesign</h4>
+          <p class="works-text">
+            Responsive redesign for one of my favorite restaurants
+          </p>
         </div>
       </div>
     </section>
 
-    <p id="under-construction">
+    <!-- <p id="under-construction">
       This website is under construction! Check back soon for updates! &#x270C;
-    </p>
+    </p> -->
     <footer>
       <p>Sherry Zhang | sherry_p_zhang@brown.edu</p>
       <p>Made with &#129483;</p>
