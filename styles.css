@@ -355,6 +355,14 @@ footer {
   max-height: 700px;
 }
 
+.images-container {
+  margin-top: 20px;
+  width: 100%;
+  /* margin: 0 auto; */
+  /* gap: 2%; */
+  justify-content: center;
+}
+
 @media screen and (max-width: 900px) {
   #about-container {
     flex-direction: column-reverse;
