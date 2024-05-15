@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/stn7ubm.css" />
+  </head>
+    <nav id="navbar">
+        <img
+        src="img/logo.gif"
+        alt="Little sun logo!"
+        style="width: 50px; height: 50px; margin-right: 15px"
+      />
+        <a href="/index.html" id="name-link"> sherry zhang </a>
+        <ul class="navbar-menu">
+            <li><a class="navbar-item" href="/oopsie.html">ANIMATION</a></li>
+            <li><a class="navbar-item" href="/oopsie.html">CODE</a></li>
+            <li><a class="navbar-item" href="/oopsie.html">ART</a></li>
+            <li><a class="navbar-item" href="/about.html">ABOUT</a></li>
+            <li><a class="navbar-item" href="/oopsie.html">RESUME</a></li>
+        </ul>
+    </nav>
+    <section class="case-study-section">
+        <h2>Frying Fish Redesign</h2>
+        <div class="case-study-hero">
+            <div class="showoff-container"><img style="width: 800px;" src="/img/responsive_main.png" alt=""></div>
+            <div class="case-study-specifications">
+                <div><h5>Project Type</h5>
+                    <p>Solo
+                    </p></div>
+                <br>
+                <div><h5>Context</h5>
+                <p>UI/UX class @ Brown University</p></div>
+                <br>
+                <div><h5>Duration</h5>
+                <p>1 week</p></div>
+                <br>
+                <div><h5>Tools</h5>
+                <p>Figma
+                </p></div>
+            </div>
+        </div>
+    </section>
+    <section style="margin-bottom: 50px;">
+        <div class="border-div">
+            <p>For a class project, I chose to redesign <span><a href="https://www.bellevuefryingfish.com/menu">the menu of one of my favorite restaurants.</a></span> While the food looks delicious, 
+                it's difficult to find important information and the website is visually cluttered & confusing with lots of overlapping elements. </p>
+
+                <div class="websites-container" style="flex-direction: column; align-items: center;">
+                    <img style="width: 750px"src="img/old_desktop.png" alt="">
+                    <div class="websites-container">
+                        <img style="width: 250px" src="img/old_mobile.png" alt="">
+                        <img style="width: 250px"src="img/old_mobile_2.png" alt="">
+                        <img style="width: 250px"src="img/old_mobile_3.png" alt="">
+                    </div>
+                </div>
+
+                <p>To start, I identified several key usability & accessibility issues with the original website:</p> 
+                <ul>
+                    <li>Slideshow of food on the top of the page may be unintuitive or confusing</li>
+                    <li>Overlapping text, sections, and images makes the website difficult to read and navigate</li>
+                    <li>The background clashes with the images of food in the menu, drawing attention away from the menu</li>
+                    <li>Lack of a menu bar on mobile</li>
+                    <li>Misaligned menu items and random empty space</li>
+                </ul>
+                <p>Evaluating the website with WAVE revealed a significant number of contrast errors and alerts, as well as a broken link. 
+                    Notably, the WAVE report showed that much of the alt text on the page was uninformative (e.g. “listitem”, “list”, “anchor-label_dataItem-jywe6amv”), which makes the website inaccessible to users who use screen readers.</p>
+            <br>
+            <h4>Simplifying the look</h4>
+            <div class="websites-container">
+                <img src="img/speed_sketches.png" alt="">
+                <img src="img/final_sketch.png" alt="">
+            </div>
+            <p>Once I identified the key problems with the original website, I made a series of speed sketches culminating in a final sketch. My goal was to simplify the structure of the menu, so I ditched the slideshow on the original website and used a simple grid for the menu.</p>
+            <p>I then created and annotated a lo-fi mockup of the revised website with Figma!</p>
+            <div class="websites-container">
+                <img style="width: 100%" src="img/fryingfish_lofi.png" alt="">
+            </div>
+            <h4>Hi-Fi Mockup & Style Guide</h4>
+            <div class="websites-container">
+                <img style="height: 400px; width: auto;" src="img/hifi_desktop_1.png" alt="">
+                <img style="height: 400px; width: auto;" src="img/hifi_phone.png" alt="">
+                <img style="height: 400px; width: auto;"src="img/styleguide (1).png" alt="">
+            </div>
+            <p>In the hi-fi stage, I ended up changing a couple of things! Firstly, I decided that having an image as the background of the header was too cluttered since I wanted the focus to be on the menu items, so I removed it. I additionally made the reserve button more prominent.</p>
+            <p>For the overall style guide, I used the logo of the restaurant as a reference and matched the style with modern, sleek-looking fonts and colors.</p>
+            <h4>Final Redesign</h4>
+            <div class="websites-container">
+                <img style="height: 400px; width: auto;" src="img/fryingfish_final_1.png" alt="">
+                <img style="height: 400px; width: auto;" src="img/fryingfish_final_mobile.png" alt="">
+            </div>
+            <p>Nice! The website is looking much cleaner!</p>
+            <p>Looking back, if I had more time, these are some things I would extend and improve upon:</p>
+            <ul>
+                <li><span style="font-weight: 400">The website is currently not interactive:</span> the links and buttons aren't functional. Adding this functionality would really complete this project.</li>
+                <li>Implementing sorting the menu by category!</li>
+                <li>Adding more personality to the website--while it's readable and easier to understand, it could use an aesthetics touch-up!</li>
+                <li>Adding some of the extra features from the original website, such as a way of indicating if a dish is spicy and the "log in" option.</li>
+            </ul>
+            <p>My redesign can be found at <span><a href="https://sherry-zhang.com/fryingfish/">this link.</a></span> Thanks for reading!</p>
+        </div>
+        
+    </section>
+    <footer>
+        <p>Sherry Zhang | sherry_p_zhang@brown.edu</p>
+        <p>Made with &#129483;</p>
+      </footer>
+  </body>
+</html>
