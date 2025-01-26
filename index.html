@@ -4,6 +4,11 @@
   <head>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="https://use.typekit.net/stn7ubm.css" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <nav id="navbar">
@@ -17,7 +22,7 @@
       <ul class="navbar-menu">
         <li><a class="navbar-item" href="#projects" alt="Projects">work</a></li>
         <li>
-          <a class="navbar-item" href="./oopsie.html" alt="Art and animation"
+          <a class="navbar-item" href="./art.html" alt="Art and animation"
             >art + animation</a
           >
         </li>
@@ -26,77 +31,85 @@
         </li>
       </ul>
     </nav>
-    <section id="home">
-      <div id="welcome">
-        <div id="textrow">
-          <h1 id="title-text">
-            Hi, I'm Sherry, <br />
-            a software developer and <br />
-            technical artist!
-          </h1>
-          <h3 id="subtitle-text">
-            I'm a senior at Brown University studying computer science,
-            <br />
-            broadly interested in animation, software engineering, and design.
-          </h3>
-          <h3 style="padding-top: 10px">&#8595;</h3>
+    <main>
+      <section id="home">
+        <div id="welcome">
+          <div id="textrow">
+            <h1 id="title-text">
+              Hi! I'm Sherry, <br />
+              a software developer and <br />
+              technical artist. ⊹₊ ݁˖
+            </h1>
+            <h3 id="subtitle-text">
+              I'm a senior at Brown University studying computer science,
+              <br />
+              broadly interested in animation, software engineering, <br />
+              computer graphics, and design.
+            </h3>
+            <h3 style="padding-top: 10px">&#8595;</h3>
+          </div>
+          <img id="main-img" src="./img/me.png" alt="Drawing of me" />
         </div>
-      </div>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="works-container">
-        <div class="works-item">
-          <a href="https://polyglons.vercel.app/" target="_blank"
-            ><img
-              class="works-img"
-              src="./img/polyglons.png"
-              alt="Screenshot of a website with a list of video game characters."
-            />
-            <h4>Island Hopper</h4>
+      </section>
+      <section id="projects">
+        <h2>Projects ･ﾟ'✧｡</h2>
+        <div class="works-container">
+          <div class="works-item">
+            <!-- <p id="in-progress">View project</p> -->
+            <a href="https://polyglons.vercel.app/" target="_blank"
+              ><img
+                class="works-img"
+                src="./img/polyglons.png"
+                alt="Screenshot of a website with a list of video game characters."
+              />
+              <h4>Island Hopper</h4>
+              <p class="works-text">
+                Interactive boat exploration browser game with procedural biome
+                generation, perspective-to-orthographic camera transformations,
+                and random object generation
+              </p>
+            </a>
+          </div>
+          <div class="works-item">
+            <div class="img-container">
+              <p id="in-progress">Under construction!</p>
+              <img class="works-img" src="./img/treereq_main.png" alt="" />
+            </div>
+
+            <h4>Tree-Req</h4>
             <p class="works-text">
-              Interactive boat exploration browser game with procedural biome
-              generation, perspective-to-orthographic camera transformations,
-              and random object generation
+              Reimagining course planning for Brown students with a prerequisite
+              checker webapp
             </p>
-          </a>
+          </div>
+          <div class="works-item">
+            <img
+              class="works-img"
+              src="./img/takeflight_main.png"
+              alt="Image from an animated short film"
+            />
+            <h4>Take Flight</h4>
+            <p class="works-text">
+              A 6-minute animated short film about parental love, growing up as
+              an artist, and a really big bird
+            </p>
+          </div>
+          <div class="works-item">
+            <img
+              class="works-img"
+              onclick="document.location.href='2024/zest.html'"
+              src="./img/zest_main.png"
+              alt="Screenshot of a Figma mockup of a website's shipping page."
+            />
+            <h4>Zest Redesign</h4>
+            <p class="works-text">Redesigning a corporate gifting platform</p>
+          </div>
         </div>
-        <div class="works-item">
-          <p id="in-progress" style="color: black">Under construction!</p>
-          <img class="works-img" src="./img/treereq_main.png" alt="" />
-          <h4>Tree-Req</h4>
-          <p class="works-text">
-            Reimagining course planning for Brown students with a prerequisite
-            checker webapp
-          </p>
-        </div>
-        <div class="works-item">
-          <img
-            class="works-img"
-            src="./img/takeflight_main.png"
-            alt="Image from an animated short film"
-          />
-          <h4>Take Flight</h4>
-          <p class="works-text">
-            A 6-minute animated short film about parental love, growing up as an
-            artist, and a really big bird
-          </p>
-        </div>
-        <div class="works-item">
-          <img
-            class="works-img"
-            onclick="document.location.href='zest.html'"
-            src="./img/zest_main.png"
-            alt="Screenshot of a Figma mockup of a website's shipping page."
-          />
-          <h4>Zest Redesign</h4>
-          <p class="works-text">Redesigning a corporate gifting platform</p>
-        </div>
-      </div>
-    </section>
-    <section id="other-works">
-      <h2>Other works</h2>
-    </section>
+      </section>
+      <section id="other-works">
+        <h2>Other works ･ﾟﾟ･✧･｡</h2>
+      </section>
+    </main>
 
     <!-- <p id="under-construction">
       This website is under construction! Check back soon for updates! &#x270C;
