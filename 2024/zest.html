@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/stn7ubm.css" />
+  </head>
+    <nav id="navbar">
+        <img
+        src="./img/logo.gif"
+        alt="Little sun logo!"
+        style="width: 50px; height: 50px; margin-right: 15px"
+      />
+        <a href="./index.html" id="name-link"> sherry zhang </a>
+        <ul class="navbar-menu">
+            <li><a class="navbar-item" href="./oopsie.html">ANIMATION</a></li>
+            <li><a class="navbar-item" href="./oopsie.html">CODE</a></li>
+            <li><a class="navbar-item" href="./oopsie.html">ART</a></li>
+            <li><a class="navbar-item" href="./about.html">ABOUT</a></li>
+            <li><a class="navbar-item" href="./oopsie.html">RESUME</a></li>
+        </ul>
+    </nav>
+    <section class="case-study-section">
+        <h2>Zest Iterative Redesign</h2>
+        <div class="case-study-hero">
+            <div class="showoff-container"><img src="./img/zest_gif.gif" alt=""></div>
+            <div class="case-study-specifications">
+                <div><h5>Team</h5>
+                    <p>Tiffany Huang <br>
+                        Ryan Peng <br>
+                        Cynthia Wang
+                    </p></div>
+                <br>
+                <div><h5>Context</h5>
+                <p>UI/UX class @ Brown University</p></div>
+                <br>
+                <div><h5>Duration</h5>
+                <p>3 weeks, ~8 hours/week</p></div>
+                <br>
+                <div><h5>Tools</h5>
+                <p>Figma</p></div>
+            </div>
+        </div>
+    </section>
+    <section style="margin-bottom: 50px;">
+        <div class="border-div">
+            <p>In this project, our team of designers worked with Zest, a B2B corporate gifting platform, to develop interface changes to accomodate a new shipping option.
+                While most of the project was done synchronously with all team members working on the same thing, I specifically focused on communicating with our client 
+                and working on the hi-fi Figma.
+            </p>
+            <h4>The Problem: Lack of support for bulk ordering</h4>
+            <p> While users of Zest's gifting platform were able to choose between shipping gifts to individual addresses and sending as e-gifts,
+                there was no option to deliver all gifts to one address. Users would have to call customer service in order to do so.
+            </p>
+            <h4>Reimagining shipping methods</h4>
+            <p>Each team member brainstormed two end-to-end flows for possible implementations of a bulk shipping process.
+                While ideating, many key questions arose:
+            </p>
+            <ul>
+                <li><span style="font-weight: 400;">Are per-recipient UI elements (e.g. personalized gift messages) necessary</span> since users who ship to one address are likely bulk ordering (e.g. for 100+ people)?</li>
+                <li><span style="font-weight: 400;">How do we want to enable bulk shipping?</span> Some ideas included a drop-down menu, a simple checkbox, and a third box in the delivery method section.</li>
+                <li><span style="font-weight: 400;">Will adding a shopping cart enhance user experience?</span> How will it interact with the rest of the user flow?</li>
+            </ul>
+            <div class="sketches-container">
+                <div id="sketches1">
+                    <img class="sketch-img" src="./img/sketch1.png" alt="Sketches by Sherry.">
+                    <img class="sketch-img" src="./img/sketch2.png" alt="Sketches by Ryan.">
+                </div>
+                <div id="sketches2">
+                    <img style="height:350px;" class="sketch-img" src="./img/sketch3.png" alt="Sketches by Tiffany.">
+                    <img style="height:350px;" class="sketch-img" src="./img/sketch4.png" alt="Sketches by Cynthia.">
+                </div>
+            </div>
+            <p>After sketching, we worked synchronously to create a lo-fi wireframe. Our key design decisions were as follows:</p>
+            <ul>
+                <li>Added new delivery method under existing "ship to receipients' addresses" option</li>
+                <li>Chose to use a <span style="font-weight: 400;">dropdown</span> over a checkbox--we wanted it to be of equal importance to shipping to individual addresses</li>
+                <li>Added an <span style="font-weight: 400;">order summary</span> and shopping cart to clearly communicate shipping costs and reduce the need to click back and forth between the main page and checkout</li>
+                <li>Removed addresses from recipients list, as bulk shipping uses a single address</li>
+            </ul>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FuLx7EYeexfJLvEnR3FPbgl%2FZest-Shipping%3Fnode-id%3D64%253A2488%26t%3DHlrVod8jrZxemY8a-1" allowfullscreen></iframe>
+            <h4>Client and peer critique: Making our design more intuitive</h4>
+            <p>Afterwards, we received critique from around 20 other students, as well as our instructor, Vanessa Cho, and our client, Christine Pun--the founding designer at Zest.
+                The most important insight we gained was that our decision of <span style="font-weight: 400;">breaking shipping methods into two with a dropdown instead of having three clear options may be confusing or unintuitive for new users.</span>
+                 (Why are there two options under one shipping method?)
+            </p>
+            <p>So, in the hi-fi prototype, we took this into account and redesigned the delivery method section!</p>
+            <h4>Creating & presenting a hi-fi prototype</h4>
+            <p>Similarly to how we did the wireframes, we worked on the hi-fi prototype together, which was made easier because we were given hi-fi Figma screens from Zest to iterate on.
+                We noted that Zest used the colors of the brand they’re working with, so we did the same in our style guide and hi-fi prototype.
+            </p>
+            <div style="margin: 50px 0;" class="images-container">
+                <div style="display: flex; flex-direction: row; gap: 2%; flex-wrap: wrap; margin-bottom: 20px;">
+                    <img style="width: 49%;" src="./img/hifi1.png" alt="">
+                    <img style="width: 49%;" src="./img/hifi3.png" alt="">
+                </div>
+                
+                <img style="max-width: 100%;" src="./img/hifi2.png" alt="">
+
+                <div style="display: flex; flex-direction: row; gap: 2%; flex-wrap: wrap; margin: 2% 2%;">
+                    <img style="width: 30%;" src="./img/mobile.png" alt="">
+                    <img style="width: 30%;" src="./img/mobile2.png" alt="">
+                    <img style="width: 30%;" src="./img/mobile3.png" alt="">
+                </div>
+            </div>
+            <p>When we presented our hi-fi prototype to Christine and Jeremy, a co-founder of Zest, they gave us some pointers for our design. </p>
+                <ul>
+                    <li>Doing <span style="font-weight: 400;">user tests</span> could help with confidence in our design choices. For example, trying a version with a cart versus without a cart could help us get a sense of how users interact with the interface.</li>
+                    <li>Having the <span style="font-weight: 400;">option to change the number of recipients</span> within the cart interface could be explored.</li>
+                    <li><span style="font-weight: 400;">The order of sections on the page is important</span> and something they have to consider deeply! For example, some companies want the ability to customize the catalog depending on shipping method, but it may be jarring if an earlier section changes based on the user’s selection in a later section.</li>
+                </ul>
+            <h4>Extra feature: change number of recipients in cart</h4>
+            <img style="width: 100%; margin: 20px 0;" src="./img/cart_demo.gif" alt="">
+            <p>During our meeting with the founder, the main point of improvement we discussed was having the number of recipients be an editable field in the order summary, rather than something only accessible via one of the larger page sections.
+                This would allow users to edit the number of recipients as they were ordering.
+            </p>
+            <p>
+                As such, we added an input field in the order summary so that users can increase or decrease the number of recipients, but set the default number of recipients to 1 so that the default total computation would be easier to understand at first glance.
+                This would also update as users changed the number of recipients in the “Recipients” page section during the main page flow to stay consistent with the general flow.
+            </p>
+
+            <h4>Insights & Reflection</h4>
+            <p>Working on this project made me realize how seemingly small aspects of an interface, such as the layout for selecting a shipping method, could have 
+                a significant impact on how users feel as they navigate the page. Reworking our original design after learning that it could be confusing taught me to 
+                prioritize clarity and understanding over aesthetics.
+            </p>
+            <p>Overall, designing for Zest was a wonderful learning experience, and I felt that I grew a lot as a designer!</p>
+        </div>
+        
+    </section>
+    <footer>
+        <p>Sherry Zhang | sherry_p_zhang@brown.edu</p>
+        <p>Made with &#129483;</p>
+      </footer>
+  </body>
+</html>

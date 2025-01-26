@@ -14,7 +14,7 @@ body {
   font-family: "halyard-display", sans-serif;
   font-weight: 200;
   font-style: normal;
-  background-color: rgb(13, 13, 17);
+  background-color: rgb(237, 232, 236);
   /* transition: all 1s ease-in-out; */
 }
 
@@ -42,7 +42,7 @@ body {
   animation-fill-mode: forwards;
 
   #name-link {
-    color: rgb(240, 242, 248);
+    color: rgb(19, 12, 9);
     text-decoration: none;
     font-size: 1.5rem;
     font-family: "adelle-sans", sans-serif;
@@ -67,8 +67,9 @@ body {
 }
 
 .navbar-item {
-  color: rgb(240, 242, 248);
+  color: rgb(137, 129, 190);
   text-decoration: none;
+  font-size: 20px;
 }
 
 .navbar-item:hover {
@@ -78,28 +79,25 @@ body {
 }
 
 #home {
-  background-color: rgb(13, 13, 17);
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-size: cover;
 }
 
 #welcome {
-  background-image: url("img/witch_room.png");
   background-size: cover;
   background-position: center center;
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  width: 100%;
 }
 
 #textrow {
   justify-content: center;
-  margin-left: auto;
+  /* margin-left: 15vw; */
   margin-right: auto;
-  padding-top: 40vh;
+  padding-top: 30vh;
 }
 
 #reel {
@@ -108,7 +106,6 @@ body {
 
 #projects {
   height: auto;
-  padding-top: 20px;
 }
 
 #about-container {
@@ -138,9 +135,9 @@ body {
 
 h1 {
   margin: 0;
-  text-align: center;
-  color: rgb(240, 242, 248);
-  font-size: 5rem;
+  text-align: left;
+  color: rgb(102, 99, 146);
+  font-size: 50px;
   font-family: "adelle-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -153,21 +150,21 @@ h1 {
 }
 
 h2 {
-  color: rgb(228, 221, 225);
+  color: rgb(102, 99, 146);
   letter-spacing: 0.05em;
-  font-size: 3rem;
+  font-size: 28px;
   margin-top: 40px;
   margin-bottom: 20px;
-  text-align: center;
-  font-weight: 500;
+  text-align: left;
+  font-weight: 400;
   /* margin-left: 200px; */
 }
 
 h3 {
-  margin-top: 5px;
-  text-align: center;
-  color: rgb(240, 242, 248);
-  font-size: 1.2rem;
+  margin-top: 15px;
+  text-align: left;
+  color: rgb(137, 129, 190);
+  font-size: 22px;
   font-weight: 200;
   letter-spacing: 0.05em;
   animation: fadeInAnimation ease 1s;
@@ -179,9 +176,9 @@ h4 {
   margin-top: 5px;
   margin-bottom: 0;
   text-align: left;
-  color: rgb(240, 242, 248);
-  font-size: 1.8rem;
-  font-weight: 200;
+  color: rgb(102, 99, 146);
+  font-size: 20px;
+  font-weight: 400;
   letter-spacing: 0.05em;
 }
 
@@ -196,7 +193,7 @@ h5 {
 }
 
 p {
-  color: rgb(228, 221, 225);
+  color: rgb(102, 99, 146);
   text-align: left;
   font-size: 18px;
   line-height: 2rem;
@@ -209,7 +206,7 @@ ul {
 }
 
 li {
-  color: rgb(228, 221, 225);
+  color: rgb(34, 28, 39);
   text-align: left;
   font-size: 22px;
   line-height: 2rem;
@@ -219,6 +216,7 @@ li {
 
 a {
   color: rgb(240, 48, 99);
+  text-decoration: none;
 }
 
 #about-me-image {
@@ -230,8 +228,9 @@ a {
 }
 
 section {
-  padding-bottom: 20px;
   height: auto;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 footer {
@@ -249,16 +248,18 @@ footer {
 .works-container {
   display: flex;
   width: 100%;
-  padding: 2vh 10vw 5vh 10vw;
+  padding-top: 10px;
+  /* padding: 2vh 10vw 5vh 10vw; */
   gap: 50px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 .works-item {
   width: 500px;
   height: 400px;
   /* background-color: antiquewhite; */
+  text-decoration: none;
   border-radius: 20px;
   transition: width 0.3s, height 0.3s, transform 0.3s;
 }
@@ -275,7 +276,7 @@ footer {
 .works-img {
   width: 500px;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 5px;
   object-fit: cover;
 }
 
@@ -287,8 +288,8 @@ footer {
 } */
 
 .works-text {
-  font-size: 1.3em;
-  color: rgb(240, 48, 99);
+  font-size: 18px;
+  color: rgb(137, 129, 190);
   letter-spacing: 0.04em;
   margin-top: 5px;
   line-height: normal;
